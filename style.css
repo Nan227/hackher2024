@@ -22,3 +22,86 @@ h2 {
   margin-right: auto;
   width: 20%;
 }
+.budget-feedback,
+.expense-feedback {
+  display: none;
+}
+
+.budget-form {
+
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+.expense-form {
+ 
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+.budget-submit {
+  background: transparent;
+
+}
+.expense-submit {
+  background: transparent;
+ 
+}
+
+.expense-amount,
+
+.edit-icon {
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none !important;
+}
+.delete-icon {
+  color: var(--mainRed);
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none !important;
+}
+.edit-icon:hover {
+  color: var(--mainBlue);
+}
+.delete-icon:hover {
+  color: var(--mainRed);
+}
+.showItem {
+  display: block;
+}
+.info-title {
+  font-size: 1.5rem;
+}
+.budget {
+  font-size: 1.6rem;
+  color: var(--mainGreen);
+}
+.expense {
+  font-size: 1.6rem;
+  color: var(--mainRed);
+}
+.balance {
+  font-size: 1.6rem;
+}
+.budget-icon,
+.expense-icon,
+.balance-icon {
+  font-size: 2.5rem;
+  color: var(--mainBlue);
+}
+.showRed {
+  color: var(--mainRed);
+}
+.showGreen {
+  color: var(--mainGreen);
+}
+.showBlack {
+  color: var(--mainDark);
+}
+
+.list-item {
+  flex: 0 0 33.33%;
+  text-align: center;
+}
+.expense-item {
+  height: 2rem;
+}
